@@ -34,7 +34,6 @@
 
   const PolicyGraph: React.FC<{ resources: Resource[] }> = ({ resources }) => {
 
-    console.log(resources);
     // Transform resources into nodes and edges
     const { nodes, edges } = useMemo(() => {
       const nodes: Node[] = resources.map((resource, index) => ({
