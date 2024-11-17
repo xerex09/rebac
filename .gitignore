@@ -163,4 +163,6 @@ cython_debug/
 
 
 backend/myenv
+backend/.env
+
 
